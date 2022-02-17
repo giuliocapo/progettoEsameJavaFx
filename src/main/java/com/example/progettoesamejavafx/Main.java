@@ -32,7 +32,6 @@ public class Main extends Application {
     @FXML
     public void createNormalWeapon(){
         WeaponFact.getInstance().createAWeapon("low","low","grey");
-        ;
     }
 
     public static void main(String[] args) {
