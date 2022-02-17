@@ -19,8 +19,7 @@ public class main extends Application {
     }
     @FXML
     public void createLegendaryWeapon(){
-        WeaponFact.getInstance().createAWeapon("max","max","gold");
-        System.out.println("arma leggendaria creata!");
+        Weapon scar = WeaponFact.getInstance().createAWeapon("max","max","gold");
     }
 
     public static void main(String[] args) {
