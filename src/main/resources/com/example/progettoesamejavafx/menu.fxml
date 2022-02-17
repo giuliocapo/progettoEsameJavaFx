@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoesamejavafx.Main">
    <children>
-      <Button alignment="CENTER" layoutX="207.0" layoutY="158.0" mnemonicParsing="false" onAction="#createLegendaryWeapon" prefHeight="25.0" prefWidth="103.0" text="Create Weapon" AnchorPane.bottomAnchor="216.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="237.0" AnchorPane.topAnchor="200.0" />
+      <Button layoutX="260.0" layoutY="147.0" mnemonicParsing="false" onAction="#createLegendaryWeapon" text="Create Legendary Weapon" />
+      <Button layoutX="260.0" layoutY="254.0" mnemonicParsing="false" onAction="#createNormalWeapon" text="Create Normal Weapon" />
+      <Button layoutX="260.0" layoutY="208.0" mnemonicParsing="false" onAction="#createRareWeapon" text="Create Rare Weapon" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true"  />
    </children>
 </AnchorPane>
